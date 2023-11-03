@@ -9,3 +9,164 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+
+header h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+
+
+header li a{
+    text-decoration: none;
+    color: #6b7280;
+}
+
+header li a:hover{
+    color: #5A67DB;
+}
+
+
+
+
+.overview-hero{
+    background-color: #E2E8F0;
+}
+
+
+
+h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    padding: 110px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    max-width: 100px; 
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card h3 {
+    color: #48BB78;
+    font-size: 21px;
+    margin: 0;
+}
+
+.card p{
+    margin: 10px 0;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.testing-description{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.testing-description h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.testing-description p {
+    margin: 10px 0;
+}
+
+.cta .btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.stories img {
+    border-radius: 50%
+}
+
+.stories h3, .stories a{
+    color: #5A67D8;
+}
+
+
+
+.newsletter{
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.newsletter h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.newsletter p {
+    margin: 10px 0;
+}
+
+
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+}
